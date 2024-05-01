@@ -18,3 +18,23 @@ This repository contains the main implementation of the string.h library in C, f
 - `o_tolower(int c)`: Converts a character to lowercase.
 - `o_strchr(const char *s, int c)`: Finds the first occurrence of a character in a string.
 - `o_strrchr(const char *s, int c)`: Finds the last occurrence of a character in a string.
+
+**Archive File:**
+
+To use the archive file (`obj_file`), follow these steps:
+
+1. **Include the Archive File**: Ensure that the `obj_file` is included in your project directory.
+
+2. **Link the Archive File**: When compiling your program, include the `obj_file` in the compilation process. For example, if using GCC, you can link the archive file by adding it to the compilation command:
+
+   ```
+   gcc your_program.c library.a
+   ```
+
+3. **Include Headers**: Include the necessary headers in your source code to utilize the functions from the library:
+
+   ```c
+   #include "my_library.h"
+   ```
+
+4. **Use Library Functions**: You can now use the functions provided by `My_library` in your C program as needed.
