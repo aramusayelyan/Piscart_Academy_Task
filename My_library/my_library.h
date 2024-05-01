@@ -1,0 +1,14 @@
+int o_isalpha(int c);
+int o_isdigit(int c);
+int o_isalnum(int c);
+int o_isascii(int c);
+int o_isprint(int c);
+int o_strlen(const char *s);
+void o_memset(void *s, int c, size_t n);
+void o_bzero(void *s, size_t n);
+size_t o_strlcpy(char *dest, const char *src, size_t size);
+size_t o_strlcat(char *dest, const char *src, size_t size);
+int o_toupper(int c);
+int o_tolower(int c);
+char *o_strchr(const char *s, int c);
+char *o_strrchr(const char *s, int c);
