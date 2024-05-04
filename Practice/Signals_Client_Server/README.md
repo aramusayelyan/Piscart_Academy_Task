@@ -1,11 +1,3 @@
-To create a README.md file, you can use any text editor such as nano, vim, or even a graphical editor like VSCode. Here's a basic example using nano, a simple terminal-based text editor:
-
-```bash
-nano README.md
-```
-
-Once you're in the nano editor, you can write the content for your README. Here's a template you can use:
-
 # Interprocess Communication using Signals
 
 This project demonstrates interprocess communication between two programs using signals in C.
@@ -51,14 +43,3 @@ Run the client with the server's process ID:
 ./client [server_process_id]
 ```
 
-## Notes
-
-- This project assumes a Unix-like environment.
-- Make sure to compile both programs before running them.
-- You may need to adjust the signal handling and synchronization mechanisms for better performance or reliability in real-world scenarios.
-
-```
-
-After writing the content, you can save the file by pressing `Ctrl + O` (to write out), then press `Enter` to confirm the filename. Finally, exit nano by pressing `Ctrl + X`.
-
-Once you have created the README.md file, you can view it with any Markdown viewer or editor to ensure everything looks correct.
