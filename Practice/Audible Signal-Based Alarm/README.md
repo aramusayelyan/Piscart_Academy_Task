@@ -39,15 +39,3 @@ This program allows users to set an alarm and plays a sound when the alarm goes 
 
 3. The program will play a sound when the alarm goes off.
 
-## Note
-
-- This program trusts that users will enter a valid number when prompted for the alarm period.
-- The sound file `sound.wav` must be present in the same directory as the executable for the alarm to work.
-
-## Author
-
-[Your Name]
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
