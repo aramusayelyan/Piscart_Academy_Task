@@ -6,7 +6,6 @@ nano README.md
 
 Once you're in the nano editor, you can write the content for your README. Here's a template you can use:
 
-```markdown
 # Interprocess Communication using Signals
 
 This project demonstrates interprocess communication between two programs using signals in C.
