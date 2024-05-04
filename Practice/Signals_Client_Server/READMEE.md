@@ -1,0 +1,65 @@
+To create a README.md file, you can use any text editor such as nano, vim, or even a graphical editor like VSCode. Here's a basic example using nano, a simple terminal-based text editor:
+
+```bash
+nano README.md
+```
+
+Once you're in the nano editor, you can write the content for your README. Here's a template you can use:
+
+```markdown
+# Interprocess Communication using Signals
+
+This project demonstrates interprocess communication between two programs using signals in C.
+
+## Overview
+
+The project consists of two programs:
+
+1. `Client.c`: Sends a message character by character to the server program.
+2. `Server.c`: Receives the message character by character from the client program and reconstructs it.
+
+## Instructions
+
+1. Compile both `Client.c` and `Server.c` using your preferred C compiler.
+2. Run the `Server` program first. It will display its process ID.
+3. Run the `Client` program with the process ID of the server as an argument.
+4. The client sends the message character by character to the server using signals.
+5. The server receives the signals, decodes them, and reconstructs the message.
+
+## Files
+
+- `Client.c`: Contains the client program code.
+- `Server.c`: Contains the server program code.
+
+## Usage
+
+Compile the programs:
+
+```bash
+gcc Client.c -o client
+gcc Server.c -o server
+```
+
+Run the server:
+
+```bash
+./server
+```
+
+Run the client with the server's process ID:
+
+```bash
+./client [server_process_id]
+```
+
+## Notes
+
+- This project assumes a Unix-like environment.
+- Make sure to compile both programs before running them.
+- You may need to adjust the signal handling and synchronization mechanisms for better performance or reliability in real-world scenarios.
+
+```
+
+After writing the content, you can save the file by pressing `Ctrl + O` (to write out), then press `Enter` to confirm the filename. Finally, exit nano by pressing `Ctrl + X`.
+
+Once you have created the README.md file, you can view it with any Markdown viewer or editor to ensure everything looks correct.
