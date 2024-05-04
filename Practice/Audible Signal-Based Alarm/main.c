@@ -4,21 +4,21 @@
 #include<signal.h>
 
 void alarm_hendler(){
-	printf("SIgnal ALARM");
-system("aplay sound.wav");	
-exit(1);
+	system("aplay sound.wav");
 }
 
 int main(){
-	int time = 0;
+int time = 0;
+signal(SIGALRM, alarm_hendler);
+do{
 	printf("Enter the period after which you want to receive the alarm։ ");
 	scanf("%i",&time);
-
-	signal(SIGALRM, alarm_hendler);
-
 	alarm(time);
 
-	while(1){
+	sleep(time);
+	printf("If you want to continue, enter any number, if you want to exit, enter a negative number: ");
 
-	}
+}while(time > 0);
+exit(1);
+
 }
