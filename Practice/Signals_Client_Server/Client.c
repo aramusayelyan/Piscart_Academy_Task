@@ -10,7 +10,7 @@ void foo(int id, char arr) {
         } else {
             kill(id, SIGUSR1);
         }
-        usleep(100000);
+//        usleep(100);
     }
 }
 
