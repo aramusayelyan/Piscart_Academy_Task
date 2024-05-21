@@ -1,0 +1,6 @@
+Line 1: This is the first line in file 1.
+Line 2: This line is unique to file 1.
+Line 3: This line is common in both files.
+Line 4: Another unique line in file 1.
+Line 5: End of file 1.
+
